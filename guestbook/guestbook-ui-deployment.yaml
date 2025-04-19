@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: guestbook-ui
+  name: guestbook-ui-demo
 spec:
   replicas: 4
   revisionHistoryLimit: 3
